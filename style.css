@@ -33,6 +33,7 @@ nav {
 .welcome {
   font-size: 1.9rem;
   font-weight: 500;
+  text-transform: uppercase;
 }
 
 .logo {
@@ -55,6 +56,7 @@ nav {
   color: inherit;
   border: 1px solid #fff;
   transition: all 0.3s;
+  text-transform: uppercase;
 }
 
 .login__input:focus {
@@ -177,14 +179,14 @@ nav {
 }
 
 .summary__label {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 500;
   text-transform: uppercase;
   margin-right: 0.8rem;
 }
 
 .summary__value {
-  font-size: 2.2rem;
+  font-size: 1.5rem;
   margin-right: 2.5rem;
 }
 
