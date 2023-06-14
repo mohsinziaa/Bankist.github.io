@@ -309,8 +309,8 @@ btnLogin.addEventListener("click", (e) => {
   );
 
   if (currentAccount?.pin === Number(inputLoginPin.value)) {
-    //Show the UI.
-    containerApp.style.opacity = 100;
+    //Hide existing UI.
+    containerApp.style.opacity = 0;
 
     //Empty input fields.
     inputLoginUsername.value = inputLoginPin.value = "";
@@ -322,6 +322,9 @@ btnLogin.addEventListener("click", (e) => {
     }`;
 
     setTimeout(() => {
+      // Show UI
+      containerApp.style.opacity = 100;
+
       //Update Total Balance.
       computeTotalBalance(currentAccount);
 
@@ -330,7 +333,7 @@ btnLogin.addEventListener("click", (e) => {
 
       //Update Display Summary.
       calculateSummary(currentAccount);
-    }, 100);
+    }, 1000);
   }
 });
 
