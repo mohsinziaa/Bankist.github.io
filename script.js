@@ -140,8 +140,8 @@ createUserNames(accounts);
 
 //Implementation of LogOutTimer.
 const logoutTimer = () => {
-  // set timer of 2.5 seconds
-  let totalTime = 60 * 0.5;
+  // set timer of 1.5 seconds
+  let totalTime = 60 * 1.5;
   let minutes = String(Math.floor(totalTime / 60)).padStart(2, 0);
   let seconds = String(Math.floor(totalTime % 60)).padStart(2, 0);
 
