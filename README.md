@@ -11,3 +11,5 @@ Bankist is a user-friendly web application designed as a banking platform using 
 
 <br><br>
 <strong>_Visit Bankist here: <a href="https://mohsinziaa.github.io/Bankist.github.io/">Bankist</a>_</strong>
+<br><br>
+<i>**Note:** There is still room for improvement in this application.</i>
